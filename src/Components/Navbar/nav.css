@@ -1,0 +1,116 @@
+nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #fdfdfd66 1px solid;
+}
+
+.container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background: #1513c8;
+  position: fixed;
+  transition: all 3s ease-in-out;
+  z-index: 20;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fdfdfd;
+}
+
+.nav_list {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav_list li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav_list li a {
+  color: #fdfdfd;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+
+.icon {
+  color: #fdfdfd;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 3s ease-in-out;
+  display: none;
+}
+
+.nav_list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.active {
+  border-bottom: #fdfdfd 2px solid;
+  padding: 24.5px 10px 24.5px 10px;
+  background-color: #cdb8ff39
+}
+
+/* .nav_list li:hover {
+  transform: scale(.9);
+} */
+
+.btn:active{
+  transform: scale(.9);
+}
+
+@media (max-width: 828px) {
+  .icon {
+    display: block;
+  }
+
+  .icon.hide {
+    display: none;
+  }
+
+  .nav_list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #1513c8;
+    transition: all 0.3s ease;
+  }
+
+  .show .nav_list {
+    left: 0;
+    z-index: 2;
+  }
+
+  nav .nav_list li {
+    margin-top: 45px;
+  }
+
+  nav.nav_list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+
+  nav.show .nav_list li a {
+    margin-left: 0;
+  }
+}
