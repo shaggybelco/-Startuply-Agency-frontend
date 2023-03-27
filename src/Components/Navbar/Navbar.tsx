@@ -1,5 +1,5 @@
 import Button from '../Button/Button';
-import './nav.css';
+import './nav.scss';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { GrClose } from 'react-icons/gr';
 import {useState} from 'react';

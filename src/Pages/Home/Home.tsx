@@ -5,6 +5,7 @@ import { BsThreeDotsVertical } from 'react-icons/bs';
 import {MdKeyboardDoubleArrowRight} from 'react-icons/md'
 import {HiArrowSmallDown} from 'react-icons/hi2'
 import How from '../How/How';
+import Review from '../Review/Review';
 
 function Home() {
 
@@ -84,6 +85,7 @@ function Home() {
                 </div>
             </div>
             <How />
+            <Review/>
         </div>
     )
 }

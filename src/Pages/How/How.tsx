@@ -1,5 +1,5 @@
 import React from 'react'
-import './How.css';
+import './How.scss';
 
 function How() {
   return (

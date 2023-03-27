@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
 }
 
 .h_sec div {
@@ -79,4 +79,24 @@
 
 .h_sec div div p{
     color: #9c9ca7;
+}
+
+@media (max-width: 828px) {
+    .h_first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .h_h{
+            width: 100%;
+        }
+        .h_c{
+            width: 80%;
+        }
+    }
+
+    .h_sec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
