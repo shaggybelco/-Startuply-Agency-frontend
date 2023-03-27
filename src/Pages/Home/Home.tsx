@@ -6,6 +6,7 @@ import {MdKeyboardDoubleArrowRight} from 'react-icons/md'
 import {HiArrowSmallDown} from 'react-icons/hi2'
 import How from '../How/How';
 import Review from '../Review/Review';
+import Review_sec from '../Review_sec/Review_sec';
 
 function Home() {
 
@@ -86,6 +87,7 @@ function Home() {
             </div>
             <How />
             <Review/>
+            <Review_sec/>
         </div>
     )
 }

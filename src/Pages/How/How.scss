@@ -1,6 +1,4 @@
-.h{
-    /* height: 100vh; */
-}
+
 
 .h_first{
     width: 100%;
@@ -85,7 +83,7 @@
     .h_first{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         .h_h{
             width: 100%;
         }
@@ -98,5 +96,8 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        div{
+            width: 70%;
+        }
     }
 }
