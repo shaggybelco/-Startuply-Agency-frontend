@@ -48,3 +48,23 @@
     }
   }
 }
+
+@media (max-width: 828px) {
+    .r_container{
+        width: 100%;
+        .rf{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            .rf_2{
+                width: 90% !important;
+                div{
+                    width: 50% !important;
+                }
+            }
+            .rf_1{
+                width: 90% !important;
+            }
+        }
+    }
+}
