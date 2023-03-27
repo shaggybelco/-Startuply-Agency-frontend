@@ -12,7 +12,7 @@ function How() {
       </div>
 
       <div className="h_sec">
-        <div>
+        <div className='h_cmp'>
           <div>
             <div></div>
             <h1>01</h1>
@@ -22,7 +22,7 @@ function How() {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore iusto accusamus officiis possimus! </p>
           </div>
         </div>
-        <div>
+        <div className='h_cmp'>
           <div>
             <div></div>
             <h1>02</h1>
@@ -32,7 +32,7 @@ function How() {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore iusto accusamus officiis possimus! </p>
           </div>
         </div>
-        <div>
+        <div className='h_cmp'>
           <div>
             <div></div>
             <h1>03</h1>

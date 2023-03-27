@@ -90,6 +90,8 @@
         }
         .h_c{
             width: 80%;
+            font-size: 30px !important;
+            margin-top: 30px !important;
         }
     }
 
@@ -97,8 +99,9 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        div{
-            width: 70%;
+        .h_cmp{
+            width: 70% !important;
+            padding-bottom: 30px !important;
         }
     }
 }

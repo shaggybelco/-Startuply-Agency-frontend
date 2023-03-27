@@ -7,6 +7,8 @@ import {HiArrowSmallDown} from 'react-icons/hi2'
 import How from '../How/How';
 import Review from '../Review/Review';
 import Review_sec from '../Review_sec/Review_sec';
+import Feedback from '../Feedback/Feedback';
+import About from '../Aboutus/About';
 
 function Home() {
 
@@ -88,6 +90,8 @@ function Home() {
             <How />
             <Review/>
             <Review_sec/>
+            <Feedback/>
+            <About/>
         </div>
     )
 }

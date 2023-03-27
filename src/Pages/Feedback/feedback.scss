@@ -1,0 +1,134 @@
+.f_f {
+  height: 100%;
+  width: 100%;
+  background-color: #1513c8;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  .f_cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    .f_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(240, 248, 255, 0.33);
+      color: #fdfdfd;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .f_txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    div {
+      width: 70%;
+      h1 {
+        color: #fdfdfd;
+        font-size: 50px;
+        text-align: center;
+      }
+    }
+  }
+
+  .f_sec {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 70px;
+    div {
+      width: 33%;
+      padding-bottom: 50px;
+      div {
+        width: 100%;
+        padding: 0;
+        h1 {
+          font-size: 50px;
+          padding-left: 30px;
+          color: #c0bfd2;
+          margin-bottom: 30px;
+        }
+        h2 {
+          color: #fdfdfd;
+          margin-bottom: 20px;
+        }
+        p {
+          color: #9c9ca7;
+        }
+
+        div {
+          width: 70px;
+          height: 70px;
+          background-color: #3782ea39;
+          position: absolute;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .f_card {
+    position: absolute;
+    width: 70%;
+    background: #fdfdfd;
+    top: 90%;
+    left: 15%;
+    z-index: 10;
+    box-shadow: 0 0 20px 0 #00000036;
+    padding: 30px;
+    .f_h div {
+      background-color: #efebf4;
+      border: #c0bfd2 1px solid;
+      border-radius: 5px;
+      padding: 20px 30px;
+      font-weight: 600;
+      width: 100px;
+      color: #c0bfd2;
+    }
+    h1 {
+      padding: 30px 0;
+    }
+  }
+}
+
+@media (max-width: 828px) {
+  .f_f {
+    border-radius: 0 0 0 0 !important;
+
+    .f_sec {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .f_c {
+        width: 80% !important;
+      }
+    }
+
+    .f_card {
+      left: 0 !important;
+      top: 95% !important;
+      width: fit-content !important;
+    }
+
+    .f_txt {
+      div {
+        h1 {
+          font-size: 20px !important;
+          margin-bottom: 50px !important;
+        }
+      }
+    }
+  }
+}
